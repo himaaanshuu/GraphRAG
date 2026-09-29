@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.dist-info/
+/.pytest_cache/
+/htmlcov/
+.coverage
+.cache
+/.mypy_cache/
+/pyproject.toml
+/.ruff_cache/
+
+# Virtual Environments
+venv/
+.env
+.env.local
+.env.production
+.env.example  # Note: .env.example is kept, .env is gitignored
+
+# Docker
+.docker/initramfs/
+/.dockerinit
+
+# Environment Specific
+# .env files specific to an environment are not committed
+
+# Node
+node_modules/
+/package-lock.json
+/yarn.lock
+/pnpm-lockfile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Database
+*.sql.bak
+
+# Production
+# Secrets and production configs
